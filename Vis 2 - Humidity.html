@@ -11,38 +11,68 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
 </head>
-
-<body class="x_body_container">
   
-    <nav class="navbar navbar-default navbar-fixed-top x_navbar">
-        <div class="container">
-            <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="Landing.html" id="brand_header">Latitude</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Vis 1 - Max Temp.html">Max Temperature</a></li>
-                        <li><a href="Vis 2 - Humidity.html">Humidity</a></li>
-                        <li><a href="Vis 3 - Cloudiness.html">Cloudiness</a></li>
-                        <li><a href="Vis 4 - Wind Speed.html">Wind Speed</a></li>                        
-                    </ul>
-                    <li><a href="Comparison.html">Comparison</a></li>
-                    <li><a href="Data.html">Data</a></li>
-                    </li>
-                </ul>
-            </div>
+<nav class="navbar navbar-default navbar-fixed-top x_navbar">
+    <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="Landing.html" id="brand_header">Latitude</a>
         </div>
-    </nav>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="Vis 1 - Max Temp.html">Max Temperature</a></li>
+                    <li><a href="Vis 2 - Humidity.html">Humidity</a></li>
+                    <li><a href="Vis 3 - Cloudiness.html">Cloudiness</a></li>
+                    <li><a href="Vis 4 - Wind Speed.html">Wind Speed</a></li>                        
+                </ul>
+                <li><a href="Comparison.html">Comparison</a></li>
+                <li><a href="Data.html">Data</a></li>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
+<div class="container" >
+    <div class="row x_row">
+        <div class="col-md-8">
+            <div class="x_region">
+                <h2 class="x_region_header">Humidity</h2>
+                <img src="Images\Fig2.png" alt="Humidity" class="x_img_vis"  >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vel, molestias rerum iste laudantium adipisci quos aliquid asperiores temporibus inventore. Minima corrupti ad hic libero, ullam ipsa quisquam magni deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit! Fuga qui magnam earum culpa sit tempore unde cum ab animi architecto? Totam nisi, ad odio voluptatibus sit cumque nam.</p>                
+                </div>
+            </div>
+            <div class=" col-md-4">
+                <div class="x_region">
+                    <h2 class="x_region_header">Visualizations</h2>
+                    <div class="row text-center">
+                        <div class="">
+                            <a href="Vis 1 - Max Temp.html" ><img src="Images\Fig1.png" alt="Max Temperature" class="x_img_tmb"></a>
+                            <a href="Vis 2 - Humidity.html"><img src="Images\Fig2.png" alt="Humidity" class="x_img_tmb"></a>
+                            <a href="Vis 3 - Cloudiness.html"><img src="Images\Fig3.png" alt="Cloudiness" class="x_img_tmb"></a>
+                            <a href="Vis 4 - Wind Speed.html"><img src="Images\Fig4.png" alt="Wind Speed" class="x_img_tmb"></a>
+                        </div>
+                    </div>                
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+          <p>Emil Rodulfo - Bootcamp Project</p>
+        </div>
+    </footer>
+    <body class="x_body_container">
+        
 </body>
 
 </html>
